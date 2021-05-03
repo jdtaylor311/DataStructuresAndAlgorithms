@@ -45,6 +45,22 @@
   "settings": {
     "lldb.displayFormat": "decimal",
     "lldb.showDisassembly": "auto",
-    "lldb.dereferencePointers": false
+    "lldb.dereferencePointers": false,
+    "editor.formatOnSave": true
+  },
+  "extensions": {
+    "recommendations": [
+      "jeff-hykin.better-cpp-syntax",
+      "ms-vscode.cpptools",
+      "xaver.clang-format",
+      "vadimcn.vscode-lldb",
+      "tabnine.tabnine-vscode",
+      "redhat.vscode-yaml",
+      "github.vscode-pull-request-github",
+      "arcticicestudio.nord-visual-studio-code",
+      "esbenp.prettier-vscode",
+      "cschlosser.doxdocgen"
+    ],
+
   }
 }
