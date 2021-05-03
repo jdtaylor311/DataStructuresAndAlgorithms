@@ -8,7 +8,7 @@ int main() {
   cin >> n;
   int A[n];
   for(int i = 0; i < n; i++){
-    cout<<"Enter the value for A[x]: "<<endl;
+    printf("Enter the value for A[%d]\n", i);
     cin >> A[i];
   }
 
@@ -17,8 +17,8 @@ int main() {
   // A[1] = 2;
   // A[2] = 3;
 
-  for (int i = 0; i < 5; i++) {
-    cout << A[i] << endl;
+  for (int i = 0; i < n; i++) {
+    printf("A[%d] is : %d\n", i, A[i]);
   }
 
   for(int x:A){

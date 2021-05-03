@@ -43,10 +43,13 @@
     ]
   },
   "settings": {
-    "lldb.displayFormat": "decimal",
+    "lldb.displayFormat": "auto",
     "lldb.showDisassembly": "auto",
     "lldb.dereferencePointers": false,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "clang-format.executable": "/Users/jdtaylor311/.nvm/versions/node/v15.14.0/bin/clang-format",
+    "clang-format.language.cpp.enable": true,
+    "clang-format.style": "Google"
   },
   "extensions": {
     "recommendations": [
